@@ -6,9 +6,13 @@
 //
 
 import SwiftUI
+import AstroClump
 
 @main
 struct AstroClumpExamplesApp: App {
+    
+    let t = TestStruct()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
